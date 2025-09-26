@@ -1,3 +1,5 @@
+let todosLosDatos = [];
+
 function crearTabla(datos){
     const tbody = document.querySelector("#tabla-gastos tbody");
     tbody.innerHTML = ""; 
@@ -23,4 +25,8 @@ function crearTabla(datos){
         `;
         tbody.appendChild(fila);
     });
+}
+
+function ordenarCodigo(){
+    
 }

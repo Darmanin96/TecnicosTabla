@@ -2,11 +2,18 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/estilos.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabla Proyecto Móvil</title>
 </head>
 <body>
+    <div class="controles">
+        <button id="btn-importe">Ordenar por Importe ↓</button>
+        <input type="date" id="filtro-fecha">
+        <button id="btn-fecha">Filtrar por Fecha</button>
+        <input type="text" id="buscar-codigo" placeholder="Buscar por código">
+    </div>
+
     <table id="tabla-gastos">
         <thead>
             <tr>
@@ -21,8 +28,8 @@
         </thead>
         <tbody></tbody>
     </table>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="js/app.js"></script>
 </body>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="js/config.js"></script>
-<script src="js/request.js"></script>
 </html>
