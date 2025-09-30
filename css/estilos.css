@@ -142,34 +142,53 @@ body {
     font-weight: 500;
 }
 
+.btn-eliminar {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-eliminar:hover {
+    background-color: #c82333;
+    transform: scale(1.08);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-eliminar:active {
+    transform: scale(0.95);
+}
+
+
 @media screen and (max-width: 768px) {
     .controles {
         flex-direction: column;
         gap: var(--espaciado-s);
     }
-
     .controles button,
     .controles input[type="date"],
     .controles input[type="text"] {
         width: 100%;
     }
-
     #tabla-gastos {
         border: 0;
         box-shadow: none;
         border-radius: 0;
     }
-
     #tabla-gastos thead {
         display: none;
     }
-
-    #tabla-gastos tbody, 
+    #tabla-gastos tbody,
     #tabla-gastos tr {
         display: block;
         width: 100%;
     }
-
     #tabla-gastos tr {
         margin-bottom: var(--espaciado-l);
         border: 1px solid var(--color-borde);
@@ -177,7 +196,6 @@ body {
         box-shadow: var(--sombra-suave);
         background: #fff;
     }
-
     #tabla-gastos td {
         display: block;
         text-align: right;
@@ -185,11 +203,9 @@ body {
         border: none;
         position: relative;
     }
-
     #tabla-gastos td:last-child {
         border-bottom: 0;
     }
-
     #tabla-gastos td::before {
         content: attr(data-label);
         position: absolute;
@@ -201,9 +217,5 @@ body {
         font-weight: 600;
         color: var(--color-primario);
         font-size: 0.9rem;
-    }
-
-    #tabla-gastos tbody tr:hover {
-        background: #fff;
     }
 }
