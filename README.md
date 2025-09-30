@@ -1,4 +1,5 @@
-📊 TecnicosTabla: Gestión de Gastos de Técnicos
+# 📊 TecnicosTabla: Gestión de Gastos de Técnico
+
 Aplicación web enfocada en la visualización y gestión de los gastos registrados por los técnicos, con la capacidad de filtrar, ordenar y eliminar registros. Los datos mostrados provienen del proyecto asociado Proyecto-movil.
 
 ✨ Características Principales
