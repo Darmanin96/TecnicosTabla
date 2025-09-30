@@ -24,3 +24,10 @@ Ordenarlos por importe
 
 Y eliminarlos pulsando en "Eliminar"
 <img width="1883" height="520" alt="image" src="https://github.com/user-attachments/assets/9ef8d515-1fe5-49a4-9214-af6184bb976b" />
+
+Nos saldrá la alerta si deseamos eliminarlo
+<img width="1875" height="792" alt="image" src="https://github.com/user-attachments/assets/e8b53d83-2f34-49e6-85e9-d051d90a5e9d" />
+
+
+Y si pulsamos que deseamos eliminarla se eliminará
+<img width="1880" height="339" alt="image" src="https://github.com/user-attachments/assets/c7d29d63-20e6-4ec3-b1f2-e63c77643716" />
