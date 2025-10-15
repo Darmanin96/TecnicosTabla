@@ -1,6 +1,6 @@
 function getAllDatos() {
     $.ajax({
-        url: "http://localhost/Api-Tecnicos/gastos",
+        url: "https://unfurbished-elissa-dcollet.ngrok-free.dev/Api-Tecnicos/gastos",
         type: "GET",
         dataType: "json",
         success: function(datos) {
@@ -32,7 +32,7 @@ function deleteGasto() {
                 cancelButtonColor: '#d33'
             }).then((result) => {
                 if (result.isConfirmed) {
-                    fetch(`http://localhost/Api-Tecnicos/gastos?id=${id}`, {
+                    fetch(`https://unfurbished-elissa-dcollet.ngrok-free.dev/Api-Tecnicos/gastos?id=${id}`, {
                         method: "DELETE"
                     })
                     .then(response => response.json())
